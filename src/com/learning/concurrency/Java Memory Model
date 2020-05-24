@@ -1,0 +1,8 @@
+Java Memory Model
+
+Main Memory and Working Memory (Registers and Cache)
+Main memory -> Working Memory
+Single Core -> Like a Bus
+Multi Core -> Like a Train (Different Cache)
+Data should be pushed to Main Memory
+When Synchronized, Cross Memory Barrier-> Taking your working from the Working Memory to Main Memory...
