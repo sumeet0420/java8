@@ -1,0 +1,1 @@
+cmd /K "C:\cygwin64\bin\bash hello.sh" --login -i 
