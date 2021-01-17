@@ -78,7 +78,7 @@ public class CollectorsLearning {
         //Getting the person from the maximum age. map because maxBy returns a Optional
         var name = getPersonList().stream()
                 .collect(collectingAndThen(maxBy(comparing(Person::getAge)), person -> person.map(Person::getName)));
-
+        System.out.println("********************************************************************************");
         System.out.println(name);
 
                 System.out.println(getPersonList().stream()
@@ -95,6 +95,7 @@ public class CollectorsLearning {
 
         Stream.generate(() -> getPersonList()).limit(1).forEach(System.out::println);
 
+        System.out.println(Arrays.stream(new int[]{1,3,7}).sum());
     }
     //Types of Stream -> IntStream, LongStream, DoubleStream, Reference
     //Reduction is not for MUTTABLE OBJECTS...

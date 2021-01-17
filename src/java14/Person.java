@@ -10,10 +10,9 @@ enum Gender {
     MALE, FEMALE;
 }
 
-public record Person(
+public record Person (
         String name,
         int age, Gender gender,
         LocalDate dateOfBirth,
-        int salary) {
-
+        int salary ) {
 }

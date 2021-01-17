@@ -1,8 +1,9 @@
-### Kill the TABS
+#IntellJ Shortcuts -> (Eclipse)
+
+## Kill the TABS
 
 Double Shift -> Search Anywhere
-
-### 
+ 
 Ctrl + Alt + L -> Go to file in project view 
 (Keymap -> select in project view shortcut to be assigned)
 
@@ -20,18 +21,21 @@ Ctrl + Alt + Down -> Duplicate a line
 
 Alt + Shift + Arrow -> Expand a Selection
 
- F1 -> Error (May need to set this up)
+F1 -> Error (May need to set this up)
  
- Ctrl + Alt + Insert -> Open New Window Dialog box
+Ctrl + Alt + Insert -> Open New Window Dialog box
  
- Live Template
+Live Template
+
+Enable Font Ligatures
  
- Ctrl + Alt + F12 -> Show in Explorer.
+Ctrl + Alt + F12 -> Show in Explorer.
  
  
- Configure Gutter Icons
+Configure Gutter Icons
  
- Semantics Highlights
+Semantics Highlights
  
- Breadcrumb don't need
- Alt + Home -> Navigation Bar (May need to change setting)
+Breadcrumb don't need
+
+Alt + Home -> Navigation Bar (May need to change setting)
